@@ -20,6 +20,9 @@ class HelloScaloidActivity extends SActivity {
       SButton("Launch second test activity").onClick(
         startActivity[SecondTestActivity]
       ).margin(20 dip)
+      SButton("Launch android annotations test activity").onClick(
+        startActivity[AnnotationTestActivity_]
+      ).margin(20 dip)
 
     }.padding(20 dip)
   }
